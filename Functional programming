@@ -10,3 +10,17 @@ function say_hi(string){
 yoo = "yoo"
 console.log(say_hi(yoo))
 console.log(say_hi(greet())) //  it takes return value of the function as an arguments for it's parameter
+
+// Example 2 
+const add = function(a,b){
+    return a+b
+}
+const multiply = function(a,b){
+    return a*b
+}
+function operation(a,b,operation){ // high level object passing the function as a parameter
+
+    return operation(a,b)
+}
+
+console.log(operation(4,7,multiply))
