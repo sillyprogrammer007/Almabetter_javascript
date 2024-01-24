@@ -1,1 +1,12 @@
+// Example of first class object
+function greet(){
+    return "Hey dude"
+}
 
+function say_hi(string){
+    return(string + " Wassup")
+
+}
+yoo = "yoo"
+console.log(say_hi(yoo))
+console.log(say_hi(greet())) //  it takes return value of the function as an arguments for it's parameter
