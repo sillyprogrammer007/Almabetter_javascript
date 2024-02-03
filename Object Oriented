@@ -31,3 +31,15 @@ console.log(keys);
 
 values = Object.values(class_students.Names)//Object.values() returns all the values in array form
 console.log(values);
+
+//------------------------------------------------------------------------------------------//
+
+// .Call and .apply Functions
+function greet(message){
+    console.log(message +" "+this.name+" from "+this.City)
+}
+
+let person = {name:"Ishan", age:25, City:"Shimla"}
+
+greet.call(person,"Fir bhyi" ) // .call function automatically fethcehs the key calues from the object that is mention an inpurs the 
+// arguments in the parameters
