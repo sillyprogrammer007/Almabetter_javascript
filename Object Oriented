@@ -14,6 +14,7 @@ const footballer_2 = new player('Ronalado','Right Wing',7)
 footballer.goal()
 footballer_2.goal()
 
+//--------------------------------------------------------------------------------------//
 
 class_students = {       // Defining an object using object literal
     Names: //here we are storing objects inside ab object
