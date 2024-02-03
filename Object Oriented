@@ -1,0 +1,32 @@
+class player{                           // definign a class in OOPS
+    constructor(name, position, no){
+        this.name = name 
+        this.position = position
+        this.number = no
+    }      
+
+goal(){
+    console.log(`${this.name} playing at ${this.position} having ${this.number}jursey number having career in {} has scored a fantastic goal`)
+}
+_}
+const footballer = new player('Messi', 'center forward', 10 )
+const footballer_2 = new player('Ronalado','Right Wing',7)
+footballer.goal()
+footballer_2.goal()
+
+
+class_students = {       // Defining an object using object literal
+    Names: //here we are storing objects inside ab object
+    {
+        Ishan: 101,
+        Kunal: 102,
+        Priya: 103,
+        Shagu: 104
+    }
+}
+console.log(class_students.Names)
+keys = Object.keys(class_students.Names) //object.keys()  returns all the keys as array
+console.log(keys);
+
+values = Object.values(class_students.Names)//Object.values() returns all the values in array form
+console.log(values);
