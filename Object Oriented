@@ -8,7 +8,9 @@ class player{                           // definign a class in OOPS
 goal(){
     console.log(`${this.name} playing at ${this.position} having ${this.number}jursey number having career in {} has scored a fantastic goal`)
 }
-_}
+}
+// creating instance objects from the class
+
 const footballer = new player('Messi', 'center forward', 10 )
 const footballer_2 = new player('Ronalado','Right Wing',7)
 footballer.goal()
