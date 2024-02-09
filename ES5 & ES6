@@ -1,0 +1,13 @@
+// object binded with function and function consistion one more function in it as an array function
+function greet(message){
+    console.log(message +" "+this.name+" from "+this.City)
+ 
+    const hie = () => { 
+        console.log("Where have you been " + this.name +" What took you so long")
+    }
+    hie()
+}
+let person = {name:"Ishan", age:25, City:"Shimla"}
+
+const new_greet = greet.bind(person)
+new_greet("Welcome back")
