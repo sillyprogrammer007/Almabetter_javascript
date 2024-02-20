@@ -1,0 +1,1 @@
+string.test(/word/)  // gives a boolean result as true or welse if the word specified lies in the string
